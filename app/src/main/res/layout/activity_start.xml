@@ -7,28 +7,51 @@
     android:orientation="vertical"
     android:layout_gravity="center_vertical"
     android:gravity="center"
+    android:id="@+id/relative_layout_starting_page"
     android:background="@drawable/container_background"
     tools:context=".MainActivity">
     <!-- Start Activity -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/layout_start_release_text"
-        android:text="Release: 1.0.100 date: 28.5.2020"
+        android:id="@+id/layout_starting_release_text"
+        android:text="Release: 1.0.400 date: 31.5.2020"
         android:gravity="center"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
+        android:textSize="24sp"
+        android:fontFamily="@font/quite_magical_regular_txt_modern"
         android:layout_marginTop="30dp"
         />
 
-    <!-- Button.CONTINUE -->
     <Button
-        android:id="@+id/button_continue"
-        android:text="AUTH"
+        android:id="@+id/starting_button_admin"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="10dp"
-        />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="95dp"
+        android:background="@drawable/starting_button_admin_selected_background"
+        android:fontFamily="@font/quite_magical_regular_txt_modern"
+        android:text="@string/staring_button_admin"
+        android:textColor="@color/colorStartingButtonAdminTextColor"
+        android:textSize="22sp"
+        android:visibility="invisible" />
+
+    <!-- Button.CONTINUE -->
+    <Button
+        android:id="@+id/starting_button_continue"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/quite_magical_regular_txt_modern"
+        android:text="@string/starting_button_continue"
+        android:textColor="@color/colorStartingButtonContinueTextColor"
+        android:background="@drawable/starting_button_continue_selected_background"
+        android:textSize="22sp" />
 
 </RelativeLayout>

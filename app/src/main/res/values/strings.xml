@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">E-Objednaj</string>
+    <!-- Buttons -->
+    <!-- Button.Start.activity -->
+    <string name="starting_button_continue">Pokračovať</string>
+    <string name="staring_button_admin">Admin</string>
 </resources>
