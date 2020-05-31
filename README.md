@@ -1,4 +1,3 @@
-# eobjednaj_android
 # E-Objednaj.sk
 
 View client:
