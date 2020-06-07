@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.eobjednaj.example.e_objednaj">
+    package="com.michalfujak.example.e_objednaj">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/icon_container"
+        android:icon="@mipmap/icon_objednaj"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/icon_container_round"
-        tools:replace="android:allowBackup"
+        android:roundIcon="@mipmap/icon_objednaj_round"
         android:supportsRtl="true"
+        tools:replace="android:allowBackup"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

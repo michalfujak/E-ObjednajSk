@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#455A64</color>
-    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorPrimary">#00695C</color>                                                      <!-- Teal 50 800 -->
+    <color name="colorPrimaryDark">#004D40</color>                                                  <!-- Teal 50 900 -->
     <color name="colorAccent">#03DAC5</color>
-    <color name="colorNavigonBar">#263238</color>
-    
-    <!-- Activity.Start -->
-    <!-- Button.continue.default -->
-    <color name="colorStartingButtonContinueDefaultStart">#607D8B</color>                           <!-- BlueGray 50 500 -->
-    <color name="colorStartingButtonContinueDefaultCenter">#607D8B</color>                          <!-- BlueGray 50 500 -->
-    <color name="colorStartingButtonContinueDefaultEnd">#546E7A</color>                             <!-- BlueGray 50 600 -->
-    <!-- Button.continue.press -->
-    <color name="colorStartingButtonContinuePressStart">#455A64</color>                             <!-- BlueGray 50 700 -->
-    <color name="colorStartingButtonContinuePressCenter">#455A64</color>                            <!-- BlueGray 50 700 -->
-    <color name="colorStartingButtonContinuePressEnd">#37474F</color>                               <!-- BlueGray 50 800 -->
-    <!-- Button.continue.textColor -->
-    <color name="colorStartingButtonContinueTextColor">#CFD8DC</color>                              <!-- BlueGray 50 100 -->
-    <!-- Button.admin.default -->
-    <color name="colorStartingButtonAdminDefaultStart">#607D8B</color>                              <!-- BlueGray 50 500 -->
-    <color name="colorStartingButtonAdminDefaultCenter">#607D8B</color>                             <!-- BlueGray 50 500 -->
-    <color name="colorStartingButtonAdminDefaultEnd">#546E7A</color>                                <!-- BlueGray 50 600 -->
-    <!-- Button.admin.press -->
-    <color name="colorStartingButtonAdminPressStart">#455A64</color>                                <!-- BlueGray 50 700 -->
-    <color name="colorStartingButtonAdminPressCenter">#455A64</color>                               <!-- BlueGray 50 700 -->
-    <color name="colorStartingButtonAdminPressEnd">#37474F</color>                                  <!-- BlueGray 50 800 -->
-    <!-- Button.continue.textColor -->
-    <color name="colorStartingButtonAdminTextColor">#CFD8DC</color>                                 <!-- BlueGray 50 100 -->
+    <color name="colorNavigonBar">#004D40</color>                                                   <!-- Teal 50 900 -->
 </resources>
