@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.michalfujak.example.e_objednaj.R;
@@ -15,17 +16,21 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("native-lib");
     }
 
+    // Initializable component
+    TextView textViewAppPrivateKey;
+    Button buttonContinue, buttonAdminSystem;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
-
+        //
+        textViewAppPrivateKey = (TextView)findViewById(R.id.layout_start_private_key_text);
+        textViewAppPrivateKey.setText(stringCryptoPrivateKey());
         // C++ 11
         // Example of a call to a native method
-        TextView tv = findViewById(R.id.testCppTextView);
-        tv.setText(stringCryptoPrivateKey());
-        Log.e("Error", stringCryptoPrivateKey());
+        // Log.e("Error", stringCryptoPrivateKey());
     }
 
     /**

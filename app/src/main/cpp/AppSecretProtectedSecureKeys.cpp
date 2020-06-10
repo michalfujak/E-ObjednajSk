@@ -16,7 +16,7 @@ using namespace std;
 AppSecretProtectedSecureKeys::AppSecretProtectedSecureKeys()
 {
     // Construct
-    // this->setApplicationPrivateKey(this->APP_PRIVATE_KEY);
+    this->setApplicationPrivateKey(this->APP_PRIVATE_KEY);
     // this->setApplicationPrivateHelperKey(this->APP_PRIVATE_HELPER_KEY);
 }
 
@@ -36,23 +36,23 @@ string AppSecretProtectedSecureKeys::appPrivateKeyRead()
 
 // setApplicationPrivateKey(string key)
 //
-string AppSecretProtectedSecureKeys::setApplicationPrivateKey(string key)
+void AppSecretProtectedSecureKeys::setApplicationPrivateKey(string& keys)
 {
-    this->appPrivateKey = key;
+    this->appPrivateKey = keys;
 }
 
 // getApplicationPrivateKey()
 //
 string AppSecretProtectedSecureKeys::getApplicationPrivateKey()
 {
-    return this->getApplicationPrivateKey();
+    return this->appPrivateKey;
 }
 
 // setApplicationPrivateHelperKey(string key)
 //
-string AppSecretProtectedSecureKeys::setApplicationPrivateHelperKey(string key)
+void AppSecretProtectedSecureKeys::setApplicationPrivateHelperKey(string& keys)
 {
-    this->appPrivateHelperKey = key;
+    this->appPrivateHelperKey = keys;
 }
 
 // getApplicationPrivateHelperKey()

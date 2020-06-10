@@ -14,9 +14,9 @@ public:
     AppSecretProtectedSecureKeys();
     ~AppSecretProtectedSecureKeys();
     string appPrivateKeyRead();
-    string setApplicationPrivateKey(string key);
+    void setApplicationPrivateKey(string& keys);
     string getApplicationPrivateKey();
-    string setApplicationPrivateHelperKey(string key);
+    void setApplicationPrivateHelperKey(string& keys);
     string getApplicationPrivateHelperKey();
 
 private:

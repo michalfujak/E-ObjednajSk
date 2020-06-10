@@ -20,7 +20,8 @@ JNIEXPORT jstring JNICALL
 Java_com_michalfujak_example_e_1objednaj_Activity_MainActivity_stringCryptoPrivateKey(JNIEnv *env, jobject thisSecond) {
     //
     AppSecretProtectedSecureKeys *objAppSecret = new AppSecretProtectedSecureKeys();
-    return env->NewStringUTF(objAppSecret->appPrivateKeyRead().c_str());
+    return env->NewStringUTF(objAppSecret->getApplicationPrivateKey().c_str());
+    // return env->NewStringUTF(objAppSecret->appPrivateKeyRead().c_str());
 }
 
 // native APP Secret Public Helper Key
