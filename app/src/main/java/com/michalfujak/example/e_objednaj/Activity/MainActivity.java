@@ -2,9 +2,14 @@ package com.michalfujak.example.e_objednaj.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Dialog;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.michalfujak.example.e_objednaj.R;
@@ -17,8 +22,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Initializable component
+    RelativeLayout relativeStartActivity;
     TextView textViewAppPrivateKey;
     Button buttonContinue, buttonAdminSystem;
+
+    // AlertDialog.V7
+    Dialog adminDialogLogin;
 
 
     @Override
@@ -31,6 +40,35 @@ public class MainActivity extends AppCompatActivity {
         // C++ 11
         // Example of a call to a native method
         // Log.e("Error", stringCryptoPrivateKey());
+        // RelativeLayout action LongClick
+        relativeStartActivity = (RelativeLayout)findViewById(R.id.relative_layout_starting_page);
+        relativeStartActivity.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                buttonAdminSystem = (Button)findViewById(R.id.starting_button_admin);
+                buttonAdminSystem.setVisibility(View.VISIBLE);
+                return true;
+            }
+        });
+
+        // Admin authorization
+        buttonAdminSystem = (Button)findViewById(R.id.starting_button_admin);
+        buttonAdminSystem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Admin Dialog LOGIN
+                adminDialogLoginStart();
+            }
+        });
+    }
+
+    private void adminDialogLoginStart()
+    {
+        adminDialogLogin = new Dialog(this);
+        //
+        adminDialogLogin.setContentView(R.layout.admin_panel_login_dialog);
+        adminDialogLogin.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        adminDialogLogin.show();
     }
 
     /**

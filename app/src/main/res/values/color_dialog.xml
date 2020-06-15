@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Alert Dialog Androidx.Cardview.Widget.CardView -->
+    <!-- AlertDialog - AdminLogin.LTE -->
+    <color name="colorAdminLoginAlertDialogBackgroundStart">#4DB6AC</color>                         <!-- Teal 50 300 -->
+    <color name="colorAdminLoginAlertDialogBackgroundCenter">#B2DFDB</color>                        <!-- Teal 50 100 -->
+    <color name="colorAdminLoginAlertDialogBackgroundEnd">#B2DFDB</color>                           <!-- Teal 50 100 -->
+
+    <!-- AlertDialog.background -->
+    <color name="colorAdminLoginAlertDialogBackgroundTransparent">#81004D40</color>                 <!-- Teal 50 900 --><!-- Opacity 50% -->
+</resources>

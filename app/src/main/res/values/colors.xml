@@ -7,23 +7,23 @@
 
     <!-- Activity.Start -->
     <!-- Button.continue.default -->
-    <color name="colorStartingButtonContinueDefaultStart">#00796B</color>                           <!-- Teal 50 700 -->
-    <color name="colorStartingButtonContinueDefaultCenter">#00796B</color>                          <!-- Teal 50 700 -->
-    <color name="colorStartingButtonContinueDefaultEnd">#00695C</color>                             <!-- Teal 50 800 -->
+    <color name="colorStartingButtonContinueDefaultStart">#00695C</color>                           <!-- Teal 50 800 -->
+    <color name="colorStartingButtonContinueDefaultCenter">#00695C</color>                          <!-- Teal 50 800 -->
+    <color name="colorStartingButtonContinueDefaultEnd">#004D40</color>                             <!-- Teal 50 900 -->
     <!-- Button.continue.press -->
-    <color name="colorStartingButtonContinuePressStart">#0097A7</color>                             <!-- Cyan 50 700 -->
-    <color name="colorStartingButtonContinuePressCenter">#0097A7</color>                            <!-- Cyan 50 700 -->
-    <color name="colorStartingButtonContinuePressEnd">#00838F</color>                               <!-- Cyan 50 800 -->
+    <color name="colorStartingButtonContinuePressStart">#00838F</color>                             <!-- Cyan 50 800 -->
+    <color name="colorStartingButtonContinuePressCenter">#00838F</color>                            <!-- Cyan 50 800 -->
+    <color name="colorStartingButtonContinuePressEnd">#006064</color>                               <!-- Cyan 50 900 -->
     <!-- Button.continue.textColor -->
     <color name="colorStartingButtonContinueTextColor">#E0F2F1</color>                              <!-- Teal 50 100 -->
     <!-- Button.admin.default -->
-    <color name="colorStartingButtonAdminDefaultStart">#00796B</color>                              <!-- Teal 50 700 -->
-    <color name="colorStartingButtonAdminDefaultCenter">#00796B</color>                             <!-- Teal 50 700 -->
-    <color name="colorStartingButtonAdminDefaultEnd">#00695C</color>                                <!-- Teal 50 800 -->
+    <color name="colorStartingButtonAdminDefaultStart">#00695C</color>                              <!-- Teal 50 800 -->
+    <color name="colorStartingButtonAdminDefaultCenter">#00695C</color>                             <!-- Teal 50 800 -->
+    <color name="colorStartingButtonAdminDefaultEnd">#004D40</color>                                <!-- Teal 50 900 -->
     <!-- Button.admin.press -->
-    <color name="colorStartingButtonAdminPressStart">#0097A7</color>                                <!-- Cyan 50 700 -->
-    <color name="colorStartingButtonAdminPressCenter">#0097A7</color>                               <!-- Cyan 50 700 -->
-    <color name="colorStartingButtonAdminPressEnd">#00838F</color>                                  <!-- Cyan 50 800 -->
+    <color name="colorStartingButtonAdminPressStart">#00838F</color>                                <!-- Cyan 50 800 -->
+    <color name="colorStartingButtonAdminPressCenter">#00838F</color>                               <!-- Cyan 50 800 -->
+    <color name="colorStartingButtonAdminPressEnd">#006064</color>                                  <!-- Cyan 50 900 -->
     <!-- Button.continue.textColor -->
     <color name="colorStartingButtonAdminTextColor">#E0F2F1</color>                                 <!-- Teal 50 100 -->
 </resources>
