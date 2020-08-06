@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AdminDialogLogin Panel.field.colors -->
+    <!-- BASECOLOR -->
+    <color name="color_admin_dialog_login_auth_panel_field_1_base">#004D40</color>                  <!-- Teal 50 900 -->
+    <color name="color_admin_dialog_login_auth_panel_field_2_base">#004D40</color>                  <!-- Teal 50 900 -->
+
+    <!-- UNDERLINE COLOR -->
+    <color name="color_admin_dialog_login_auth_panel_field_1_underline">#7B1FA2</color>             <!-- Purple 50 700 -->
+    <color name="color_admin_dialog_login_auth_panel_field_2_underline">#7B1FA2</color>             <!-- Purple 50 700 -->
+
+    <!-- PRIMARY COLOR -->
+    <color name="color_admin_dialog_login_auth_panel_field_1_primary">#004D40</color>               <!-- Teal 50 900 -->
+    <color name="color_admin_dialog_login_auth_panel_field_2_primary">#004D40</color>               <!-- Teal 50 900 -->
+
+    <!-- TEXT COLOR -->
+    <color name="color_admin_dialog_login_auth_panel_field_1_text">#004D40</color>                  <!-- Teal 50 900 -->
+    <color name="color_admin_dialog_login_auth_panel_field_2_text">#004D40</color>                  <!-- Teal 50 900 -->
+
+    <!-- HINT TEXT COLOR -->
+    <color name="color_admin_dialog_login_auth_panel_field_hint_1_text">#00796B</color>             <!-- Teal 50 700 -->
+    <color name="color_admin_dialog_login_auth_panel_field_hint_2_text">#00796B</color>             <!-- Teal 50 700 -->
+
+    <!-- BACKGROUND COLOR -->
+    <color name="color_admin_dialog_login_auth_panel_field_1_background">#000000</color>            <!-- Teal 50 400 --><!-- Disabled -->
+
+    <!-- STROKE COLOR -->
+    <color name="color_admin_dialog_login_auth_panel_field_1_stroke">#000000</color>                <!-- Teal 50 000 --><!-- Disabled -->
+</resources>

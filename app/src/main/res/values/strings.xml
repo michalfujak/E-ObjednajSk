@@ -5,4 +5,17 @@
     <!-- Button.Start.activity -->
     <string name="start_button_continue">Pokračovať</string>
     <string name="start_button_admin">Admin</string>
+
+    <!-- Admin Dialog Login txt -->
+    <string name="admin_dialog_login_main_content_txt">Autorizácia::LTE_SECURE</string>
+    <!-- AdminDialogLogin ContentMessageAuth -->
+    <string name="admin_dialog_login_content_message_auth">Pre pokračovanie prosím vyplnte prázdne policka k autorizacii. </string>
+
+
+    <!-- Text MaterialEditText AdminDialogLoginAuthPanels -->
+    <string name="admin_dialog_login_auth_panel_field_1">Sekundarné heslo</string>
+    <string name="admin_dialog_login_auth_panel_field_2">Privatné heslo</string>
+
+    <!-- AdminDialogLogin Button.txt -->
+    <string name="admin_dialog_login_button_auth">Autorizovať !</string>
 </resources>

@@ -3,9 +3,13 @@
     <!-- Alert Dialog Androidx.Cardview.Widget.CardView -->
     <!-- AlertDialog - AdminLogin.LTE -->
     <color name="colorAdminLoginAlertDialogBackgroundStart">#4DB6AC</color>                         <!-- Teal 50 300 -->
-    <color name="colorAdminLoginAlertDialogBackgroundCenter">#B2DFDB</color>                        <!-- Teal 50 100 -->
+    <color name="colorAdminLoginAlertDialogBackgroundCenter">#E0F2F1</color>                        <!-- Teal 50 000 -->
     <color name="colorAdminLoginAlertDialogBackgroundEnd">#B2DFDB</color>                           <!-- Teal 50 100 -->
 
-    <!-- AlertDialog.background -->
-    <color name="colorAdminLoginAlertDialogBackgroundTransparent">#81004D40</color>                 <!-- Teal 50 900 --><!-- Opacity 50% -->
+    <!-- AlertDialogLogin.background -->
+    <color name="admin_dialog_login_view_content_top_menu_background">#004D40</color>               <!-- Teal 50 900 -->
+    <!-- AlertDialogLogin.txtColor -->
+    <color name="admin_dialog_login_main_txt">#00695C</color>                                       <!-- Teal 50 800 -->
+    <!-- AlertDialogLogin.content.message.auth color.Text -->
+    <color name="admin_dialog_login_content_message_auth">#004D40</color>                           <!-- Teal 50 900 -->
 </resources>

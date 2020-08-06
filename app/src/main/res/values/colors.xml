@@ -26,4 +26,16 @@
     <color name="colorStartingButtonAdminPressEnd">#006064</color>                                  <!-- Cyan 50 900 -->
     <!-- Button.continue.textColor -->
     <color name="colorStartingButtonAdminTextColor">#E0F2F1</color>                                 <!-- Teal 50 100 -->
+
+    <!-- AdminDialogLogin Button.txt -->
+    <!-- Button.admin.dialog.login.default -->
+    <color name="colorAdminDialogloginButtonAuthBackgroundDefaultStart">#00695C</color>             <!-- Teal 50 800 -->
+    <color name="colorAdminDialogloginButtonAuthBackgroundDefaultCenter">#00695C</color>            <!-- Teal 50 800 -->
+    <color name="colorAdminDialogloginButtonAuthBackgroundDefaultEnd">#004D40</color>               <!-- Teal 50 900 -->
+    <!-- Button.admin.dialog.login.press -->
+    <color name="colorAdminDialogloginButtonAuthBackgroundPressStart">#00838F</color>               <!-- Cyan 50 800 -->
+    <color name="colorAdminDialogloginButtonAuthBackgroundPressCenter">#00838F</color>              <!-- Cyan 50 800 -->
+    <color name="colorAdminDialogloginButtonAuthBackgroundPressEnd">#006064</color>                 <!-- Cyan 50 900 -->
+    <!-- Button.auth.textColor -->
+    <color name="colorAdminDialogloginButtonAuthTextColor">#E0F2F1</color>                          <!-- Teal 50 100 -->
 </resources>
