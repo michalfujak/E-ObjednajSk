@@ -1,0 +1,13 @@
+[
+{
+  "directory": "C:/IT_Projekty/GroupProjects/Android/E-Objednaj/app/.cxx/cmake/release/x86",
+  "command": "C:\\Users\\micha\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147-2\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=C:/Users/micha/AppData/Local/Android/Sdk/ndk/21.3.6528147-2/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/micha/AppData/Local/Android/Sdk/ndk/21.3.6528147-2/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\native-lib.dir\\native-lib.cpp.o -c C:\\IT_Projekty\\GroupProjects\\Android\\E-Objednaj\\app\\src\\main\\cpp\\native-lib.cpp",
+  "file": "C:\\IT_Projekty\\GroupProjects\\Android\\E-Objednaj\\app\\src\\main\\cpp\\native-lib.cpp"
+},
+
+{
+  "directory": "C:/IT_Projekty/GroupProjects/Android/E-Objednaj/app/.cxx/cmake/release/x86",
+  "command": "C:\\Users\\micha\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147-2\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=C:/Users/micha/AppData/Local/Android/Sdk/ndk/21.3.6528147-2/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/micha/AppData/Local/Android/Sdk/ndk/21.3.6528147-2/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\native-lib.dir\\AppSecretProtectedSecureKeys.cpp.o -c C:\\IT_Projekty\\GroupProjects\\Android\\E-Objednaj\\app\\src\\main\\cpp\\AppSecretProtectedSecureKeys.cpp",
+  "file": "C:\\IT_Projekty\\GroupProjects\\Android\\E-Objednaj\\app\\src\\main\\cpp\\AppSecretProtectedSecureKeys.cpp"
+}
+]

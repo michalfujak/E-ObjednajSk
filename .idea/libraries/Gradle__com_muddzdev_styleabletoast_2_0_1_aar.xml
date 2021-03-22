@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="Gradle: com.muddzdev:styleabletoast:2.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6edffc75c5718b16c7a6eec89e52a6ae/jetified-styleabletoast-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6edffc75c5718b16c7a6eec89e52a6ae/jetified-styleabletoast-2.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1052d31bcb7eeef180f8c1246789cac1/jetified-styleabletoast-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1052d31bcb7eeef180f8c1246789cac1/jetified-styleabletoast-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1052d31bcb7eeef180f8c1246789cac1/jetified-styleabletoast-2.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10806971e142fa8bd5b5c6932fc056ea/jetified-styleabletoast-2.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10806971e142fa8bd5b5c6932fc056ea/jetified-styleabletoast-2.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10806971e142fa8bd5b5c6932fc056ea/jetified-styleabletoast-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20f6b0034de041f29b790a5e94c7c0a4/jetified-styleabletoast-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20f6b0034de041f29b790a5e94c7c0a4/jetified-styleabletoast-2.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20f6b0034de041f29b790a5e94c7c0a4/jetified-styleabletoast-2.0.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/395e9c09a3f31a07a996c8816299176b/jetified-styleabletoast-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/395e9c09a3f31a07a996c8816299176b/jetified-styleabletoast-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/395e9c09a3f31a07a996c8816299176b/jetified-styleabletoast-2.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d54a564afa38b1d17a61ed770569580/jetified-styleabletoast-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d54a564afa38b1d17a61ed770569580/jetified-styleabletoast-2.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d54a564afa38b1d17a61ed770569580/jetified-styleabletoast-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f57d415b8ed26149d250c9894f9557a/jetified-styleabletoast-2.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f57d415b8ed26149d250c9894f9557a/jetified-styleabletoast-2.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f57d415b8ed26149d250c9894f9557a/jetified-styleabletoast-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2841260fa32796c32fc08a680f2f450a/jetified-styleabletoast-2.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2841260fa32796c32fc08a680f2f450a/jetified-styleabletoast-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2841260fa32796c32fc08a680f2f450a/jetified-styleabletoast-2.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.muddzdev/styleabletoast/2.0.1/ac9ddf71cfcb228a72da9c679d3866e7a039d956/styleabletoast-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.muddzdev/styleabletoast/2.0.1/3648c32f4dbff32e4f89ab107e7b0fefdcd60df0/styleabletoast-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

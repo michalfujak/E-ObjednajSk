@@ -18,6 +18,8 @@ import com.michalfujak.example.e_objednaj.Modul.ApplicationLogin;
 import com.michalfujak.example.e_objednaj.Modul.ApplicationLoginSecret;
 import com.michalfujak.example.e_objednaj.R;
 import com.michalfujak.example.e_objednaj.Retrofit.IObjednajServiceClient;
+import com.michalfujak.example.e_objednaj.SodiumSecretCheckBox.TransferEncoderBase64;
+import com.michalfujak.example.e_objednaj.SodiumSecretCheckBox.TransferSodiumApplication;
 import com.michalfujak.example.e_objednaj.Utils.Common;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
@@ -33,11 +35,9 @@ public class MainActivity extends AppCompatActivity {
     // Used to load the 'native-lib' library on application startup.
     static {
         System.loadLibrary("native-lib");
-    }
-    // native code, starting OnCreate
-    static {
         System.loadLibrary("sodiumjni");
     }
+    // native code, starting OnCreate
 
     // Initializable component
     RelativeLayout relativeStartActivity;
@@ -54,6 +54,19 @@ public class MainActivity extends AppCompatActivity {
     // Retrofit service object
     IObjednajServiceClient IObjednajService;
 
+    // Sodium variable
+    private byte[] nonce;
+    private byte[] base64NonceConvertToByte;
+    private String base64Nonce;
+    private String base64UrlNonce;
+    private String base64UrlNonceReplace;
+    private String cryptoSodiumOut;
+    private String base64CryptoSodiumOut;
+    private byte[] cryptoSodiumByte;
+    //
+    private byte[] heap_publicKey;
+    private String messageKey2 = "Key2";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +74,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start);
 
         IObjednajService = Common.getAPIServerOne();
+        // Sodium object
+        TransferSodiumApplication transferSodium = new TransferSodiumApplication();
+        TransferEncoderBase64 transferBase64bit = new TransferEncoderBase64();
         //
         // textViewAppPrivateKey = (TextView)findViewById(R.id.layout_start_private_key_text);
         // textViewAppPrivateKey.setText(generatePublicApplicationKey());
@@ -88,19 +104,44 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Callback Sodium library
+        heap_publicKey = transferSodium.transferCryptoStringToByte(generatePublicApplicationKey());
+        cryptoSodiumByte = transferSodium.EncryptMethod_sKey(transferSodium.transferCryptoStringToByte(messageKey2), heap_publicKey);
+        // copy nonce
+        nonce = transferSodium.copy_to_copy_nonce_public();
+        // fine!
+        base64CryptoSodiumOut = transferBase64bit.encodeBase64Url(cryptoSodiumByte);
+        base64Nonce = transferBase64bit.encodeBase64Url(nonce);
+        // Convert to byte, for Base64URL
+        base64NonceConvertToByte = transferSodium.transferCryptoStringToByte(base64Nonce);
+        // Out for read to retrofit
+        // fine!
+        base64UrlNonce = transferBase64bit.encodeBase64Url(base64NonceConvertToByte);
+        base64UrlNonceReplace = transferBase64bit.replaceNonce(base64UrlNonce);
 
-        ApplicationLogin objAppLogin = new ApplicationLogin("Key2", "null");
+        // Error debugging
+        // https://stackoverflow.com/questions/50452262/android-ndk-throwing-signal-sigsegv-invalid-address-in-debug-mode
+        // NDK --> C++
 
-        Call<ApplicationLoginSecret> callAppLoginSecret = IObjednajService.appLoginSecret(objAppLogin);
+
+
+
+
+
+        ApplicationLogin objAppLogin = new ApplicationLogin(base64CryptoSodiumOut, base64UrlNonceReplace);
+
+        Call<ApplicationLoginSecret> callAppLoginSecret = IObjednajService.appLoginSecret(objAppLogin, base64UrlNonceReplace);
         callAppLoginSecret.enqueue(new Callback<ApplicationLoginSecret>() {
             @Override
             public void onResponse(Call<ApplicationLoginSecret> call, Response<ApplicationLoginSecret> response) {
-                Toast.makeText(MainActivity.this, "" + response.errorBody() + "", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "" + response.code() + "", Toast.LENGTH_LONG).show();
             }
 
             @Override
             public void onFailure(Call<ApplicationLoginSecret> call, Throwable t) {
                 Toast.makeText(MainActivity.this, "Error: " + t.getMessage(), Toast.LENGTH_LONG).show();
+                Log.d("Error2", t.getMessage() + "  SystemInfo: " + t.toString());
+                // update code, helper: https://stackoverflow.com/questions/39918814/use-jsonreader-setlenienttrue-to-accept-malformed-json-at-line-1-column-1-path
             }
         });
     }

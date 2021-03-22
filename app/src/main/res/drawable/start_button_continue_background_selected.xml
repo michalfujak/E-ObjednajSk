@@ -3,6 +3,7 @@
     <item
         android:state_pressed="true"
         android:drawable="@drawable/start_button_continue_background_press" />
+
     <item
         android:drawable="@drawable/start_button_continue_background_default" />
 </selector>

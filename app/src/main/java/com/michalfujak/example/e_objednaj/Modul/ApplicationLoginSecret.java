@@ -6,6 +6,8 @@ public class ApplicationLoginSecret
     public int id;
     public int uuid;
     public String email;
+    public String urlNonce;
+    public String urlPrivateKey;
     public String token;
 
     // Set and Get, response
@@ -40,5 +42,21 @@ public class ApplicationLoginSecret
 
     public void setToken(String token) {
         this.token = token;
+    }
+
+    public String getUrlNonce() {
+        return urlNonce;
+    }
+
+    public void setUrlNonce(String urlNonce) {
+        this.urlNonce = urlNonce;
+    }
+
+    public String getUrlPrivateKey() {
+        return urlPrivateKey;
+    }
+
+    public void setUrlPrivateKey(String urlPrivateKey) {
+        this.urlPrivateKey = urlPrivateKey;
     }
 }

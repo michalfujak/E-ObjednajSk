@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.joshjdevl.libsodiumjni:libsodium-jni-aar:2.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ded5593dea0c8218a15af16e3084e07/jetified-libsodium-jni-aar-2.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ded5593dea0c8218a15af16e3084e07/jetified-libsodium-jni-aar-2.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ded5593dea0c8218a15af16e3084e07/jetified-libsodium-jni-aar-2.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.joshjdevl.libsodiumjni/libsodium-jni-aar/2.0.2/ebd6f8fff750c21f15f97f838358436c80513403/libsodium-jni-aar-2.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.joshjdevl.libsodiumjni/libsodium-jni-aar/2.0.2/606136ae403ff356eb82c98ce6d039ed5fbed433/libsodium-jni-aar-2.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

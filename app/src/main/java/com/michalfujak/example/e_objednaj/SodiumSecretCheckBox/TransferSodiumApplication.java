@@ -8,9 +8,8 @@ import org.libsodium.jni.SodiumConstants;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
-// Version class: 1.0.0.100 [ 6.8.2020 22:20 ]
-//
 // install sodium api
+// version: 1.2.100 [date: 10.8.2020  21:39]
 //
 // library install
 // implementation 'com.github.joshjdevl.libsodiumjni:libsodium-jni-aar:2.0.1'
@@ -35,6 +34,7 @@ public class TransferSodiumApplication
 {
     // variable
     int sizeGenerateKey;
+    byte[] copy_to_copy_nonce;
 
     public TransferSodiumApplication()
     {
@@ -53,6 +53,15 @@ public class TransferSodiumApplication
         Sodium.randombytes(buffer, size);
 
         return buffer;
+    }
+
+    /**
+     * function: copy_copy_nonce_public
+     * @return copy_copy_nonce
+     */
+    public byte[] copy_to_copy_nonce_public()
+    {
+        return copy_to_copy_nonce;
     }
 
     /**
@@ -80,6 +89,8 @@ public class TransferSodiumApplication
     {
         // variable
         byte[] nonce = generateNonceByte();
+        // Copy nonce for $urlNonce :)
+        copy_to_copy_nonce = nonce;
         byte[] chipherText = new byte[Sodium.crypto_secretbox_macbytes() + messageBytes.length];
 
         Sodium.crypto_secretbox_easy(

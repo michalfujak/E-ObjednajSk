@@ -63,5 +63,18 @@ public class TransferEncoderBase64
         decodeUrl = Base64.decode(decode64Url, Base64.URL_SAFE);
         return decodeUrl;
     }
+
+    /**
+     *
+     * @param urlNonce
+     * @return
+     */
+    public String replaceNonce(String urlNonce)
+    {
+        String replaceString = new String(urlNonce);
+        replaceString.replace('%', '@');
+
+        return replaceString;
+    }
 }
 

@@ -1,0 +1,4 @@
+# ninja log v5
+6	974	628444393	CMakeFiles/native-lib.dir/native-lib.cpp.o	a2868d4a0085b89a
+1	1538	628444393	CMakeFiles/native-lib.dir/AppSecretProtectedSecureKeys.cpp.o	2d79a919acdf482b
+1540	1712	628444394	C:/IT_Projekty/GroupProjects/Android/E-Objednaj/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	9d11d0ee8fefd8ad

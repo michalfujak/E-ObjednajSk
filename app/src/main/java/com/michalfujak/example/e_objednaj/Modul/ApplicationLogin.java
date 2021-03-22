@@ -13,9 +13,9 @@ public class ApplicationLogin
     // construct call
 
 
-    public ApplicationLogin(String key2, String urlNonce)
+    public ApplicationLogin(String key, String urlNonce)
     {
-        this.key2 = key2;
+        this.key = key;
         this.urlNonce = urlNonce;
     }
 }
